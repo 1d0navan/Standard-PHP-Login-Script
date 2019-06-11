@@ -12,7 +12,7 @@
 	}
 	
 	function idgen($length = 16, $type = 4) 
-    {
+    	{
 		include 'config.php';
 		
 		//If Type = 1 (Only numbers)
@@ -49,6 +49,6 @@
 		
 		//Send back the ID
 		return $randomString;
-    }
+   	}
 	
 	
